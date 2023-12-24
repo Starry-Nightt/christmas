@@ -1,0 +1,38 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.frame {
+  display: inline-block;
+  padding: 0;
+  border-radius: 3px;
+  font-size: 7em;
+  text-shadow: 1px 2px white;
+  color: green;
+  text-align: center;
+  flex: 1;
+  margin-bottom: 120px;
+}
+.frame canvas {
+  display: block;
+  padding: 60px 0px 0px 0px;
+}
+
+#tree {
+  display: block;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+}
