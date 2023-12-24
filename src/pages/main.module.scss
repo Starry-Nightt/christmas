@@ -3,6 +3,7 @@ main {
   display: flex;
   align-items: center;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow-x: hidden;
 }
 
 .frame {
@@ -34,5 +35,9 @@ main {
 @media screen and (max-width: 800px) {
     main {
         flex-direction: column;
+    }
+
+    .card {
+      justify-content: flex-end;
     }
 }

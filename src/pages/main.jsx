@@ -8,7 +8,7 @@ function MainPage() {
   }, []);
 
   const createTree = () => {
-    const width = 600;
+    const width = window.innerWidth <= 600 ? window.innerWidth : 600;
     const height = 450;
 
     const swirls = [
