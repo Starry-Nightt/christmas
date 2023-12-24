@@ -424,7 +424,7 @@ input#open {
 
 .title {
   position: absolute;
-  color: #333;
+  color: #ddd;
   font-size: 30px;
   font-family: brush script mt;
   line-height: 25px;
@@ -437,19 +437,18 @@ input#open {
   position: absolute;
   width: 150px;
   text-align: center;
-  font-family: brush script mt;
   line-height: 15px;
-  font-size: 20px;
-  color: #333;
+  font-size: 18px;
+  color: #fff;
   height: 300px;
-  top: 45%;
+  top: 36%;
   left: 25px;
   line-height: 1.2;
 }
 
 .gift {
   position: absolute;
-  border: 3px solid #333;
+  border: 3px solid #fff;
   width: 30px;
   height: 30px;
   top: 235px;
@@ -460,7 +459,7 @@ input#open {
 .gift:after {
   content: "";
   position: absolute;
-  background-color: #333;
+  background-color: #fff;
 }
 
 .gift:before {
@@ -485,7 +484,7 @@ input#open {
   position: absolute;
   width: 7px;
   height: 7px;
-  border: 3px solid #333;
+  border: 3px solid #fff;
   border-radius: 50%;
   top: -14px;
 }

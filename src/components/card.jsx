@@ -26,7 +26,7 @@ function Card() {
             Merry <br /> Christmas!
           </div>
           <div className="wishes">
-            Merry Christmas and Happy New Year. Love you Quynh My
+            Merry Christmas người anh yêu {"<3"}. Chúc em luôn gặp những điều tốt đẹp nhất. ~Love you 
           </div>
           <div className="gift">
             <div className="bow"></div>
